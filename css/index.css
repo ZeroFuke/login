@@ -1,0 +1,144 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1cm;
+    background-color: black;
+
+}
+
+.contenedor{
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 16cm;
+    background-image: url(/ventas/imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo-sesion{
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 5px 5px 10px black;
+}
+.imagen{
+    background-image: url(/ventas/imagenes/user.ico);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 30px;
+    height: 125px;
+    background-color: whitesmoke;
+    border-radius: 100%;
+    box-shadow: 2px 2px 20px black;
+}
+
+.usuario-caja{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
+    color: white;
+
+    .usuario{
+        font-size: 20px;
+        padding-bottom: 25px ;
+
+        .letras-usuario{
+            margin: 1%;
+            font-weight: 700;
+        }
+    
+    }
+
+    .contraseña{
+        font-size: 20px;
+        
+        .letras-usuario{
+            margin: 0%;
+            font-weight: 700;
+        }
+    }
+}
+
+.input-usuario{
+    width: 80%;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 10px black ;
+}
+
+.soporte-caja{
+    margin-top: 5px;
+    color: white;
+
+    .soporte{
+        padding: 3px;
+    }
+}
+
+.olvide{
+    text-decoration: none;
+    color: inherit;
+}
+
+.caja-login{
+    width: 90%;
+    height: 30px;
+    padding-top: 10px;
+
+    .login{
+        width: 100%;
+        height: 100%;
+        font-size: 20px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px black;
+    
+    }
+}
+
+.caja-redes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+    .icono-redes{
+        width: 10%;
+        height: auto;
+    }
+}
+
+.caja-registrar{
+    width: 90%;
+    height: 30px;
+    text-align: center;
+    margin-top: 15px;
+    
+    .Registrate{
+        font-size: 20px;
+        width: 100%;
+        height: 100%;
+        box-shadow: 5px 5px 10px black;
+        border-radius: 10px;
+        border: none;
+    }
+
+    .enlace-registrar{
+        text-decoration: none;
+        color: black;
+        
+    }
+
+}
+
+
+

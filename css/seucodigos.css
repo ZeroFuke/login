@@ -1,0 +1,15 @@
+.login:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px 10px white ;
+}
+
+.Registrate:hover{
+    background-color: black;
+}
+
+.contenedor:has(.Registrate:hover) .enlace-registrar{
+    color: white;
+    
+}
+
