@@ -17,7 +17,7 @@ body{
     align-items: center;
     width: 350px;
     height: 16cm;
-    background-image: url(/ventas/imagenes/fondo.jpg);
+    background-image: url(/imagenes/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -29,7 +29,7 @@ body{
     text-shadow: 5px 5px 10px black;
 }
 .imagen{
-    background-image: url(/ventas/imagenes/user.ico);
+    background-image: url(/imagenes/user.ico);
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 30px;
